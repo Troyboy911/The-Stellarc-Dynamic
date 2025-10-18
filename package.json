@@ -1,0 +1,23 @@
+{
+  "name": "the-stellarc-dynamic",
+  "version": "1.0.0",
+  "description": "Hybrid orchestrator that coordinates specialized agents (infrastructure, business, code, deployment).",
+  "main": "the_stellarc_dynamic.js",
+  "scripts": {
+    "start": "node the_stellarc_dynamic.js",
+    "start:ui": "node chat_server.js",
+    "postinstall": "node -e \"console.log('Set OPENAI_API_KEY to enable tool-calling agents')\""
+  },
+  "keywords": ["orchestrator", "agents", "uci"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "openai": "^4.0.0",
+    "cheerio": "^1.0.0",
+    "undici": "^6.19.8"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.47.0"
+  }
+}
