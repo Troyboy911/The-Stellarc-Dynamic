@@ -1,0 +1,32 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\troyg\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.1
+2 info using node@v24.7.0
+3 silly config load:file:C:\Users\troyg\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\troyg\the-stellarc-dynamic\.npmrc
+5 silly config load:file:C:\Users\troyg\.npmrc
+6 silly config load:file:C:\Users\troyg\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm run help
+8 verbose argv "run" "help"
+9 verbose logfile logs-max:10 dir:C:\Users\troyg\the-stellarc-dynamic\hellmodenpm-cache\_logs\2025-10-21T05_10_50_641Z-
+10 verbose logfile C:\Users\troyg\the-stellarc-dynamic\hellmodenpm-cache\_logs\2025-10-21T05_10_50_641Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose stack Error: Missing script: "help"
+13 verbose stack
+13 verbose stack To see a list of scripts, run:
+13 verbose stack   npm run
+13 verbose stack     at #run (C:\Users\troyg\AppData\Roaming\npm\node_modules\npm\lib\commands\run.js:115:13)
+13 verbose stack     at async RunScript.exec (C:\Users\troyg\AppData\Roaming\npm\node_modules\npm\lib\commands\run.js:44:7)
+13 verbose stack     at async Npm.exec (C:\Users\troyg\AppData\Roaming\npm\node_modules\npm\lib\npm.js:208:9)
+13 verbose stack     at async module.exports (C:\Users\troyg\AppData\Roaming\npm\node_modules\npm\lib\cli\entry.js:67:5)
+14 error Missing script: "help"
+14 error
+14 error To see a list of scripts, run:
+14 error   npm run
+15 verbose cwd C:\Users\troyg\the-stellarc-dynamic
+16 verbose os Windows_NT 10.0.22631
+17 verbose node v24.7.0
+18 verbose npm  v11.6.1
+19 verbose exit 1
+20 verbose code 1
+21 error A complete log of this run can be found in: C:\Users\troyg\the-stellarc-dynamic\hellmodenpm-cache\_logs\2025-10-21T05_10_50_641Z-debug-0.log
